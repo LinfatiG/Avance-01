@@ -16,6 +16,9 @@ public class Mesa {
     
     Validador val = new Validador();
     
+    public void ocuparMesa() {
+    }
+    
     public void menu() {
         Scanner teclado = new Scanner(System.in);
         System.out.println("¿Qué desea hacer?");
