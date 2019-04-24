@@ -36,7 +36,7 @@ public class Carta {
 
     }
 
-    public void mostrarCartaComida() {
+    public void mostrarComestibles() {
         comida.size();
         for (int i = 0; i < comida.size(); i++) {
             System.out.println(comida.get(i));
@@ -45,7 +45,7 @@ public class Carta {
 
     }
 
-    public void mostrarCartaBebestibles() {
+    public void mostrarBebestibles() {
         bebestibles.size();
         for (int i = 0; i < bebestibles.size(); i++) {
             System.out.println(bebestibles.get(i));
@@ -70,12 +70,12 @@ public class Carta {
 
         switch (opcn) {
             case 1:
-                mostrarCartaComida();
+                mostrarComestibles();
                 menu.menu();
                 break;
 
             case 2:
-                mostrarCartaBebestibles();
+                mostrarBebestibles();
                 menu.menu();
                 break;
 
