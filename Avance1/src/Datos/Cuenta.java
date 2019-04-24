@@ -11,4 +11,17 @@ package Datos;
  */
 public class Cuenta {
     
+    public void agregarPropina(){
+    }
+    
+    public void dividirCuenta() {
+    }
+    
+    public void mostrarPropina() {
+    }
+    
+    public void pagar() {
+    }
+       
+    
 }
