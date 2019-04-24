@@ -17,7 +17,7 @@ public class Usuario {
     String usu = "Administrador";
     String pass = "1234";
 
-    public String usuario() {
+    public String entrar() {
         System.out.println("Ingrese el nombre de usuario");
         String usuario = teclado.nextLine();
 
