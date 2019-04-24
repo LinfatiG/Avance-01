@@ -11,4 +11,13 @@ package Datos;
  */
 public class Pedido {
     
+    public void agregarPedidio() {
+    }
+    
+    public void eliminarPedido() {
+    }
+    
+    public void mostrarCarta() {
+    }
+    
 }
